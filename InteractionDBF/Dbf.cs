@@ -11,7 +11,6 @@ namespace InteractionDBF
     {
         private OleDbConnection con;
         private DbfConnProperties dbfConnProperties;
-        //    string.Format("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=D:\Temp\dBase;Extended Properties=dBase III";
 
         public DBF(DbfConnProperties pDbfConnProperties)
         {
